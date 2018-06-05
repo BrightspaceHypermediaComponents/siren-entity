@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "title": "cats"
+  },
+  "links": [{
+    "rel": ["self"],
+    "href": "/data/demo.json"
+    }]
+}

@@ -1,0 +1,21 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../polymer-siren-mixins/siren-entity-mixin.html">
+
+<script>
+	/*
+	 @memberOf window.D2L.Polymer.Mixins;
+	 @mixes SirenEntityMixin
+	*/
+	class SirenEntity extends window.D2L.Polymer.Mixins.SirenEntityMixin(Polymer.Element) {
+		static get is() { return 'siren-entity'; }
+		static get properties() {
+			return {
+				entity: {
+					type: Object,
+					notify: true
+				}
+			};
+		}
+	}
+	window.customElements.define(SirenEntity.is, SirenEntity);
+</script>
