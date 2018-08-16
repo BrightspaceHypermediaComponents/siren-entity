@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "polymer test"
+    "test": "polymer test --skip-plugin sauce"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/BrightspaceHypermediaComponents/siren-entity/issues"
   },
-  "homepage": "https://github.com/BrightspaceHypermediaComponents/siren-entity#readme"
+  "homepage": "https://github.com/BrightspaceHypermediaComponents/siren-entity#readme",
+  "dependencies": {},
+  "devDependencies": {
+  }
 }
