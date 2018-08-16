@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "polymer test --skip-plugin sauce"
+    "test": "polymer test --skip-plugin sauce",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,6 @@
   "homepage": "https://github.com/BrightspaceHypermediaComponents/siren-entity#readme",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^5.3.0"
   }
 }
