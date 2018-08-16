@@ -1,0 +1,22 @@
+{
+  "name": "siren-entity",
+  "version": "0.0.1",
+  "description": "a polymer siren entity",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "polymer test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrightspaceHypermediaComponents/siren-entity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrightspaceHypermediaComponents/siren-entity/issues"
+  },
+  "homepage": "https://github.com/BrightspaceHypermediaComponents/siren-entity#readme"
+}

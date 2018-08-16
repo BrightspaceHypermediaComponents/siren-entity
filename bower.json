@@ -4,7 +4,7 @@
   "main": "siren-entity.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
-    "polymer-siren-mixins": "Brightspace/polymer-siren-mixins"
+    "d2l-polymer-siren-behaviors": "Brightspace/polymer-siren-behaviors#^0.0.3"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
