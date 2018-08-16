@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "polymer test --skip-plugin sauce",
-    "postinstall": "bower install"
+    "postinstall": "polymer install"
   },
   "repository": {
     "type": "git",
