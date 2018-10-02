@@ -2,6 +2,10 @@
 <link rel="import" href="../d2l-polymer-siren-behaviors/store/entity-behavior.html">
 
 <script>
+	/*
+	* @extends Polymer.Element
+	* @appliesMixin D2L.PolymerBehaviors.Siren.EntityBehavior
+	*/
 	class SirenEntity extends Polymer.mixinBehaviors([D2L.PolymerBehaviors.Siren.EntityBehavior], Polymer.Element) {
 		static get is() { return 'siren-entity'; }
 		static get properties() {
