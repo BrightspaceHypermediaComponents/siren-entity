@@ -1,35 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>siren-entity test</title>
+	<title>siren-entity test</title>
 
-    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-    <script src="../../web-component-tester/browser.js"></script>
+	<script src="../../@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+	<script src="../../wct-browser-legacy/browser.js"></script>
 
-    <link rel="import" href="../siren-entity.html">
+	<script type="module" src="../siren-entity.js"></script>
   </head>
   <body>
 
-    <test-fixture id="BasicTestFixture">
-      <template>
-        <siren-entity href="test.json" token="siren-entity"></siren-entity>
-      </template>
-    </test-fixture>
+	<test-fixture id="BasicTestFixture">
+	  <template>
+		<siren-entity href="test.json" token="siren-entity"></siren-entity>
+	  </template>
+	</test-fixture>
 
-    <script>
-      suite('siren-entity', () => {
+	<script type="module">
+import '../siren-entity.js';
+suite('siren-entity', () => {
 
-        test('instantiating the element with default properties works', () => {
-          const element = fixture('BasicTestFixture');
-          assert.equal(element.token, 'siren-entity');
-          assert.isNotNull(element.entity);
-        });
+  test('instantiating the element with default properties works', () => {
+	const element = fixture('BasicTestFixture');
+	assert.equal(element.token, 'siren-entity');
+	assert.isNotNull(element.entity);
+  });
 
-      });
-    </script>
+});
+</script>
 
   </body>
 </html>
