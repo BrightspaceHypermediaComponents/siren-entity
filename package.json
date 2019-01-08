@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "polymer test --skip-plugin sauce",
-    "postinstall": "polymer install"
+    "postinstall": "polymer install",
+    "demo": "polymer serve"
   },
   "repository": {
     "type": "git",
