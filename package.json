@@ -1,27 +1,40 @@
 {
+  "description": "a polymer siren entity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrightspaceHypermediaComponents/siren-entity.git"
+  },
+  "homepage": "https://github.com/BrightspaceHypermediaComponents/siren-entity#readme",
   "name": "siren-entity",
   "version": "0.0.1",
-  "description": "a polymer siren entity",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "polymer test --skip-plugin sauce",
-    "postinstall": "polymer install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BrightspaceHypermediaComponents/siren-entity.git"
+    "demo": "polymer serve"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BrightspaceHypermediaComponents/siren-entity/issues"
   },
-  "homepage": "https://github.com/BrightspaceHypermediaComponents/siren-entity#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "d2l-polymer-siren-behaviors": "Brightspace/polymer-siren-behaviors#semver:^1"
+  },
   "devDependencies": {
-    "polymer-cli": "^1.7.2"
+    "@polymer/iron-demo-helpers": "^3.0.0",
+    "@webcomponents/webcomponentsjs": "^2.2.2",
+    "babel-eslint": "^10.0.1",
+    "polymer-cli": "^1.9.4",
+    "wct-browser-legacy": "^1.0.1"
+  },
+  "resolutions": {
+    "inherits": "2.0.3",
+    "samsam": "1.1.3",
+    "supports-color": "3.1.2",
+    "type-detect": "1.0.0"
   }
 }
