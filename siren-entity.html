@@ -2,6 +2,13 @@
 <link rel="import" href="../d2l-polymer-siren-behaviors/store/entity-behavior.html">
 
 <script>
+	/**
+	 * `<siren-entity>`
+	 * a polymer siren entity
+	 * @customElement
+	 * @polymer
+	 * @demo demo/index.html
+	 */
 	class SirenEntity extends Polymer.mixinBehaviors([D2L.PolymerBehaviors.Siren.EntityBehavior], Polymer.Element) {
 		static get is() { return 'siren-entity'; }
 		static get properties() {
@@ -11,6 +18,10 @@
 					notify: true
 				}
 			};
+		}
+
+		constructor() {
+			super();
 		}
 	}
 	window.customElements.define(SirenEntity.is, SirenEntity);

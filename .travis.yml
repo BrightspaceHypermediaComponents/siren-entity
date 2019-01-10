@@ -1,6 +1,5 @@
 language: node_js
-node_js: 9
-sudo: required
+node_js: node
 addons:
   chrome: stable
 script:
