@@ -2,7 +2,7 @@
 <link rel="import" href="../siren-entity.html">
 
 <dom-module id="siren-entity-demo">
-	<template>
+	<template strip-whitespace>
 		<siren-entity href="/demo/data/demo.json" token="foo" entity="{{entity}}"></siren-entity>
 		<h1>Title: [[_getTitle(entity)]]</h1>
 	</template>
