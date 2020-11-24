@@ -6,7 +6,7 @@
   },
   "homepage": "https://github.com/BrightspaceHypermediaComponents/siren-entity#readme",
   "name": "siren-entity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "directories": {
     "test": "test"
